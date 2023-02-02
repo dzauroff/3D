@@ -1,0 +1,246 @@
+@media (max-width: 768px) {
+    .header__nav {
+        margin-right: -23px;
+    }
+    .hero {
+        margin-bottom: -34px;
+    }
+    .hero__content {
+        padding: 122px 14px;
+    }
+    .hero__title {
+        font-size: 50px;
+    }
+    .adv__img {
+        margin-top: 112px;
+        width: 206px;
+        height: 187px;
+    }
+    .advantages__list {
+        justify-content: space-between;
+    }
+    .advantages__icon {
+        margin-bottom: 14px;
+    }
+    .advantages__subtext {
+        margin-left: 0;
+    }
+    .teachers {
+        padding-top: 114px;
+    }
+    .teacher__item {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .teacher {
+        width: 327px;
+    }
+    .teacher__img {
+        margin-bottom: 24px;
+    }
+    .courses {
+        padding-top: 10px;
+    }
+    .course__list {
+        margin-right: -37px;
+    }
+    .card {
+        width: 327px;
+    }
+    .btn1 {
+        margin-top: 26px;
+    }
+    .btn2 {
+        margin-top: 72px;
+    }
+    .btn3 {
+        margin-top: 104px;
+    }
+    .btn4 {
+        margin-top: 30px;
+    }
+    .social {
+        margin-right: -21px;
+    }
+    .footer__subtext {
+        margin-right: -26px;
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        height: 133px;
+    }
+    .header__logo {
+        position: relative;
+        left: 177px;
+        bottom: 29px;
+    }
+    .header__nav {
+        position: relative;
+        top: 50px;
+    }
+    .nav__item:not(:last-child) {
+        margin-right: 0;
+    }
+    .main__link {
+        position: relative;
+        right: 212px;
+        bottom: 28px;
+    }
+    .about__link {
+        position: relative;
+        right: 154px;
+        bottom: 28px;
+    }
+    .teacher__link {
+        position: relative;
+        right: 98px;
+        bottom: 28px;
+    }
+    .course__link {
+        position: relative;
+        right: 43px;
+        bottom: 28px;
+    }
+    .hero {
+        margin-bottom: 12px;
+    }
+    .hero__content {
+        padding: 72px 0;
+    }
+    .hero__title {
+        margin-bottom: 19px;
+    }
+    .hero__text {
+        width: 345px;
+    }
+    .hero__btn {
+        padding: 20px 68px;
+    }
+    .hero__right {
+        display: none;
+    }
+    .advantages__block {
+        margin-bottom: -4px;
+    }
+    .adv__img {
+        width: 122px;
+        height: 108px;
+    }
+    .advantages__list {
+        margin-right: 0px;
+    }
+    .advantages__icon {
+        margin-bottom: 7px;
+    }
+    .teacher__item {
+        margin-right: -6px;
+    }
+    .teacher {
+        width: 248px;
+    }
+    .courses {
+        padding-top: 30px;
+    }
+    .course__list {
+        margin-right: 3px;
+    }
+    .course__item {
+        margin-right: 0;
+    }
+    .card {
+        width: 240px;
+    }
+    .card__btn {
+        padding: 20px 20px;
+        width: 171px;
+    }
+    .btn1 {
+        margin-top: 13px;
+    }
+    .btn2 {
+        margin-top: 10px;
+    }
+    .btn4 {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .header {
+        height: 80px;
+    }
+    .header__logo {
+        position: inherit;
+    }
+    .header__nav {
+        display: none;
+    }
+    .burger {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+    }
+    .burger__line {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 2px;
+        background-color: black;
+    }
+    .burger__line:first-child {
+        top: 13px;
+    }
+    .burger__line:nth-child(2) {
+        top: 47%;
+    }
+    .burger__line:last-child {
+        bottom: 13px;
+    }
+    .hero__title {
+        font-size: 30px;
+    }
+    .hero__text {
+        width: 290px;
+        font-size: 16px;
+    }
+    .hero__btn {
+        width: 213px;
+        padding: 18px 38px;
+    }
+    .advantages__text {
+        font-size: 20px;
+    }
+    .advantages__list {
+        display: block;
+    }
+    .advantages__item {
+        width: 250px;
+    }
+    .advantages__subtext {
+        width: 250px;
+        position: relative;
+        left: 82px;
+        bottom: 70px;
+    }
+    .block2 {
+        display: none;
+    }
+    .adv__img {
+        display: none;
+    }
+    .teacher__item {
+        margin-right: 10px;
+    }
+    .teacher {
+        width: 288px;
+    }
+    .course__item {
+        margin-right: 10px;
+    }
+    .card {
+        width: 288px;
+    }
+}
